@@ -1,0 +1,20 @@
+{
+  "name": "twillio-lambda",
+  "version": "0.0.1",
+  "description": "lambda function to incorporate twillio in a serverless api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "twillio",
+    "serverless"
+  ],
+  "author": "Jaime Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "twilio": "^3.31.0"
+  }
+}
