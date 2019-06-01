@@ -1,0 +1,14 @@
+{
+  "name": "s3-link-gen",
+  "version": "0.1.0",
+  "description": "simple lambda function that allows the front end to query for a temporary s3 upload link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.466.0"
+  }
+}
