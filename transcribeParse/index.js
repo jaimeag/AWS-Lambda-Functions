@@ -3,7 +3,7 @@ var AWS = require('aws-sdk');
 var s3 = new AWS.S3({region: "us-west-2"});
 var dynamodb = new AWS.DynamoDB();
 
-AWS.config.update({accessKeyId: "AKIASY7YKZ7IGGPVWQ7N"/*process.env.AWS_ACCESS_KEY_ID*/, secretAccessKey: "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"/*process.env.AWS_SECRET_ACCESS_KEY*/, region: "us-west-2"});
+AWS.config.update({accessKeyId: process.env.AWS_ACCESS_KEY_ID, secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY, region: "us-west-2"});
 const transcribeKey = event.Records[0].s3.object.key;
 const transcribeInfo = transcribeKey.split('_');
 exports.handler = function(event, context, callback){
