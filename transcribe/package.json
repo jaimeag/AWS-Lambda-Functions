@@ -14,5 +14,8 @@
     "transcribe"
   ],
   "author": "Jaime Gonzalez",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.468.0"
+  }
 }
