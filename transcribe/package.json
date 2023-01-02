@@ -1,0 +1,21 @@
+{
+  "name": "aws-transcribe-lambda-function",
+  "version": "1.0.0",
+  "description": "Allows an appsync API to send a GQL query to a lambda resolver, returning a txt file with the full audio transcription",
+  "main": "transcribe_text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "appsync",
+    "graphql",
+    "lambda",
+    "aws",
+    "transcribe"
+  ],
+  "author": "Jaime Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.468.0"
+  }
+}
