@@ -16,6 +16,6 @@
   "author": "Jaime Gonzalez",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.468.0"
+    "aws-sdk": "^2.1354.0"
   }
 }
